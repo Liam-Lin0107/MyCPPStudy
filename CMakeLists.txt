@@ -9,7 +9,7 @@ file(GLOB_RECURSE SOURCES
         "${INC_DIR}/*.h"
         "${SRC_DIR}/*.cpp")
 
-add_executable(${PROJECT_NAME} Code10_Arrays.cpp)
+add_executable(${PROJECT_NAME} Code11_Strings.cpp)
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${INC_DIR})
 
